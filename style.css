@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Robot', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+background-color:mediumblue;}
+
+.chrono{
+    background-color:cornflowerblue;
+    padding: 10px;
+    border-radius: 6px ;
+    width: 600px;
+    text-align: center;
+}
+
+.timeTerre{
+    margin: auto;
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.timeTerre span {
+    font-family: 'Rubik Moonrocks', cursive;
+    padding: 5px;
+}
+
+.controlsTerre{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    width: 31%;
+    border: 0;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(0.9);
+}
+
+.timeMiller{
+    margin: auto;
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.timeMiller span {
+    font-family: 'Rubik Moonrocks', cursive;
+    padding: 5px;
+}
